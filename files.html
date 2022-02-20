@@ -32,7 +32,7 @@
     </head>
 
 <body>
-     <header class="header">
+   <header class="header">
         <!--menu desktop-->
         <div class="wrap d-flex">
 
@@ -108,16 +108,14 @@
 
         </div>
     </header>
-    <section class="page cart">
-     
-      <div class="butonBack">
-               <a href="home.html"><i class="fa fa-angle-left"></i></a>
+    <section class="page cart listofGrocery">
+       <div class="butonBack">
+               <a href="user-document.html"><i class="fa fa-angle-left"></i></a>
            </div>
        <div class="titlePage ">
-           <h3>Cart</h3>
+           <h3>Lista de Compras</h3>
        </div>
-       
-       <!--list of products-->
+        <!--list of products-->
         <div class="listProducts animated fadeInUp">
             <div class="product">
                 <div class="itemProductdiv1">
@@ -313,84 +311,103 @@
             
         </div>
        <!--list of products-->
-        
-        
-        
-        <!--cuadromodal-->
-        <div class="cuadro-modal ">
-           <div class="total">
-            <p>Sub-total: $18.00</p>
-            </div>
-            <div class="lineamedio"></div>
-            
-            <div class="col-auto mb-2">
-                <input class="form-control form-control-md cuponInput" type="text" placeholder="Posee Cupón de Descuento?" aria-label=".form-control-lg example">
-            </div>
-            
-            <h3>Metodo de Envío</h3>
-            <div class="cardsmall group  itemFav ">
-                    <a href="pickup-store.html">
-                        <div class="group itemFav shadow">
-                            <div class="fa fa-paypal"></div>
-                            <div class="div1pagocon">
-                                <h2>PickUp</h2>
-                                <p>Retiro en el local</p>
+        <div class="container-fluid cuadro-modal">
+           <div class="lineamedio"></div>
+            <div class="row">
+
+                <div class="areagris">
+                </div>
+
+                <div class="areablanc areablanc-interna animated fadeInUp">
+
+
+                    <div class="div-responsive1">
+
+                        <a href="user-document.html">
+                            <div class="back">
+                                <i class="fa fa-chevron-left"></i>
+                                <h1> List Of Groceries</h1>
+                            </div>
+                        </a>
+
+
+                        <form class="d-flex shadowSearch">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success btn-seach" type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+
+                        <div class="post-inner">
+                            <div class="carousel-inner-data ">
+                                <div class="post navTabs scrollable">
+                                    <div class=" itemFav">
+                                        <i class="fa fa-file-pdf-o"></i>
+                                        <div class="div1">
+                                            <h2>Subject</h2>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                        </div>
+                                    </div>
+                                    <div class=" itemFav">
+                                        <i class="fa fa-file-pdf-o"></i>
+                                        <div class="div1">
+                                            <h2>Subject</h2>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                        </div>
+                                    </div>
+                                    <div class=" itemFav">
+                                        <i class="fa fa-file-pdf-o"></i>
+                                        <div class="div1">
+                                            <h2>Subject</h2>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                        </div>
+                                    </div>
+                                    <div class=" itemFav">
+                                        <i class="fa fa-file-pdf-o"></i>
+                                        <div class="div1">
+                                            <h2>Subject</h2>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="div-responsive2">
+
+                        <div class="lateral">
+                            <div class="group  itemFav shadow">
+                                <img src="assets/users/1.jpg" alt="">
+                                <div class="div1">
+                                    <p>John Doe.</p>
+                                    <p>Johndoe@gmail.com</p>
+                                    <p>User</p>
+
+                                </div>
+                            </div>
+
+                            <div class="banner-c">
+                                <img src="https://picsum.photos/seed/car/500/500" alt="">
                             </div>
                         </div>
-                    </a>
-                      <a href="shipping.html">
-                         <div class="group itemFav shadow">
-                            <div class="fa fa-paypal"></div>
-                            <div class="div1pagocon">
-                                <h2>Delivery</h2>
-                                <p>Info deliveryl</p>
-                            </div>
-                        </div>
-                    </a>
+                    </div>
 
-               
-            </div>
 
-            
-            <div class="info-product animated fadeInUp ">
-              
-               <div class="infoCompraTotal shadow">
-                   <div class="infoCompraTotal1">
-                       <p>Delivery Zona Este</p>
-                   </div>
-                   <div class="infoCompraTotal2">
-                       <p>$5.00</p>
-                   </div>
-                   <div class="infoCompraTotal3">
-                       <p>Sub Total con Delivery</p>
-                   </div>
-                   <div class="infoCompraTotal4">
-                       <p>$25.00</p>
-                   </div>
-                   <div class="infoCompraTotal5">
-                       <p>Cupón de Descuento</p>
-                   </div>
-                   <div class="infoCompraTotal6">
-                       <p>Si</p>
-                   </div>
-                   <div class="infoCompraTotal7">
-                       <p>SubTotal</p>
-                   </div>
-                   <div class="infoCompraTotal8">
-                       <p>$25.00</p>
-                   </div>
-               </div>
-                
-                <a href="login-regiter.html">
-                    <button class="boton-brown w-100">Continue</button>
-                </a>
+
+
+
+                </div>
 
             </div>
+
         </div>
-        <!--cuadromodal-->
-        
-
+        </div>
     </section>
+    
     <footer>
 <!---menufooter--->
         <div class="menu-footer">
@@ -411,12 +428,12 @@
                         <i class="fa fa-shopping-bag"></i>
                     </a>
                 </li>
-                <li>
+                <li >
                     <a href="favorites.html">
                         <i class="fa fa-heart"></i>
                     </a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="user.html">
                         <i class="fa fa-user"></i>
                     </a>
@@ -427,17 +444,16 @@
     </footer>
 
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Latest compiled and minified JavaScript -->
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+
+
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
-<script src="./assets/js/imageGalerry.js"></script>
 <script src="./assets/js/header.js"></script>
-
-
 <script>
     $(document).ready(function() {
         $(".sidemenu-toggler").click(function() {
@@ -446,9 +462,6 @@
 
         $(".close").click(function() {
             $(".sidemenu").removeClass("active");
-        });
-        $(".lastposthome").click(function() {
-            $(".lastposthome").toggleClass("lastposthomeactive");
         });
     });
 </script>

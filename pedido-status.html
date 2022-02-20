@@ -110,10 +110,10 @@
     </header>
     <section class=" productPage statusOrder ">
        <div class="butonBack">
-               <a href="home.html"><i class="fa fa-angle-left"></i></a>
+               <a href="pedidos.html"><i class="fa fa-angle-left"></i></a>
            </div>
        <div class="titlePage">
-           <h3>Favorites</h3>
+           <h3>Order Resumen</h3>
        </div>
         
         <div class="pedidosPrincipal">
@@ -144,7 +144,7 @@
                <h1>Status Pedido</h1>
                <p>Nos vemos Pronto!</p>
                <br>
-               <h3>Pendido Enviado</h3>
+               <h3>Pedido Enviado</h3>
                <p>Fecha: 01/01/22</p>
            </div>
             
@@ -153,17 +153,28 @@
         <!--cuadromodal-->
         <div class="cuadro-modal ">
             <div class="lineamedio"></div>
+            <i class="fa fa-ellipsis-v" type="button" data-bs-toggle="modal" data-bs-target="#editarPedidoModal" style="right: 30px; position: absolute; float: right;"></i>
+            
+            
+            
+            <div class="dropdown">
+            
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
 
             <div class="card-body cardTitleProduct ">
-                   <div class="div1 animated fadeInUp">
+                   <div class="div1 ">
                        <h1>Title Product</h1>
                    </div>
-                   <div class="div2 animated fadeInUp">
-                       <div class="price">$200</div>
+                   <div class="div2 ">
+                       <div class="price"> Total $200</div>
                    </div>
-                   <div class="div3 animated fadeInUp">
-                       <h2>Category</h2>
-                       <p>Peso: 200gm</p>
+                   <div class="div3 ">
+                       <h2>Cupón Aplicado: Si</h2>
                        
                    </div>
                    <div class="div4 animated fadeInUp">
@@ -181,18 +192,141 @@
                             <span><input type="radio" name="rating" id="str2" value="2"><label for="str2"></label></span>
                             <span><input type="radio" name="rating" id="str1" value="1"><label for="str1"></label></span>
                         </div>
+                        <div class="clear"></div>
+                        
                    </div>
                 
             </div>
-            <div class="clear"></div><br>
+            <div class="clear"></div><br><br>
             
             <div class="info-product animated fadeInUp">
-               <h2>Comentarios</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate aut dignissimos inventore accusantium eos alias quasi id, quam ducimus ipsa nostrum est recusandae enim esse laudantium quia quod incidunt mollitia.</p>
+                <h2><b>Resumen del pedido</b></h2>
+                <hr>
+                <br>
                 
+                <div class=" resumenP scrollable">
+                    <!--articulo del pedido-->
+                <div class="resumenPedido">
+                    <div class="resumenPedidodiv1">
+                        <h2>Nombre Producto</h2>
+                    </div>
+                    <div class="resumenPedidodiv2">
+                        <h3><span><a href="" type="button" data-bs-toggle="modal" data-bs-target="#compartirEditModal">Compartir</a></span> | <span><a href="" type="button" data-bs-toggle="modal" data-bs-target="#comentarEditModal">Comentar</a></span></h3>
+                        
+                    </div>
+                    <div class="resumenPedidodiv3">
+                        <h1>$43.00</h1>
+                    </div>
+                    <div class="resumenPedidodiv4">
+                        <p>Cantidad: 20</p>
+                    </div>
+                </div>
+                 <!--articulo del pedido-->
+                 <!--articulo del pedido-->
+                <div class="resumenPedido">
+                    <div class="resumenPedidodiv1">
+                        <h2>Nombre Producto</h2>
+                    </div>
+                    <div class="resumenPedidodiv2">
+                        <h3><span><a href="" type="button" data-bs-toggle="modal" data-bs-target="#compartirEditModal">Compartir</a></span> | <span><a href="" type="button" data-bs-toggle="modal" data-bs-target="#comentarEditModal">Comentar</a></span></h3>
+                        
+                    </div>
+                    <div class="resumenPedidodiv3">
+                        <h1>$43.00</h1>
+                    </div>
+                    <div class="resumenPedidodiv4">
+                        <p>Cantidad: 20</p>
+                    </div>
+                </div>
+                 <!--articulo del pedido-->
+                 <!--articulo del pedido-->
+                <div class="resumenPedido">
+                    <div class="resumenPedidodiv1">
+                        <h2>Nombre Producto</h2>
+                    </div>
+                    <div class="resumenPedidodiv2">
+                        <h3><span><a href="" type="button" data-bs-toggle="modal" data-bs-target="#compartirEditModal">Compartir</a></span> | <span><a href="" type="button" data-bs-toggle="modal" data-bs-target="#comentarEditModal">Comentar</a></span></h3>
+                        
+                    </div>
+                    <div class="resumenPedidodiv3">
+                        <h1>$43.00</h1>
+                    </div>
+                    <div class="resumenPedidodiv4">
+                        <p>Cantidad: 20</p>
+                    </div>
+                </div>
+                 <!--articulo del pedido-->
+                 <!--articulo del pedido-->
+                <div class="resumenPedido">
+                    <div class="resumenPedidodiv1">
+                        <h2>Nombre Producto</h2>
+                    </div>
+                    <div class="resumenPedidodiv2">
+                        <h3><span><a href="" type="button" data-bs-toggle="modal" data-bs-target="#compartirEditModal">Compartir</a></span> | <span><a href="" type="button" data-bs-toggle="modal" data-bs-target="#comentarEditModal">Comentar</a></span></h3>
+                        
+                    </div>
+                    <div class="resumenPedidodiv3">
+                        <h1>$43.00</h1>
+                    </div>
+                    <div class="resumenPedidodiv4">
+                        <p>Cantidad: 20</p>
+                    </div>
+                </div>
+                 <!--articulo del pedido-->
+                 <!--articulo del pedido-->
+                <div class="resumenPedido">
+                    <div class="resumenPedidodiv1">
+                        <h2>Nombre Producto</h2>
+                    </div>
+                    <div class="resumenPedidodiv2">
+                        <h3><span><a href="" type="button" data-bs-toggle="modal" data-bs-target="#compartirEditModal">Compartir</a></span> | <span><a href="" type="button" data-bs-toggle="modal" data-bs-target="#comentarEditModal">Comentar</a></span></h3>
+                        
+                    </div>
+                    <div class="resumenPedidodiv3">
+                        <h1>$43.00</h1>
+                    </div>
+                    <div class="resumenPedidodiv4">
+                        <p>Cantidad: 20</p>
+                    </div>
+                </div>
+                 <!--articulo del pedido-->
+                 <!--articulo del pedido-->
+                <div class="resumenPedido">
+                    <div class="resumenPedidodiv1">
+                        <h2>Nombre Producto</h2>
+                    </div>
+                    <div class="resumenPedidodiv2">
+                        <h3><span><a href="" type="button" data-bs-toggle="modal" data-bs-target="#compartirEditModal">Compartir</a></span> | <span><a href="" type="button" data-bs-toggle="modal" data-bs-target="#comentarEditModal">Comentar</a></span></h3>
+                        
+                    </div>
+                    <div class="resumenPedidodiv3">
+                        <h1>$43.00</h1>
+                    </div>
+                    <div class="resumenPedidodiv4">
+                        <p>Cantidad: 20</p>
+                    </div>
+                </div>
+                 <!--articulo del pedido-->
+                 <!--articulo del pedido-->
+                <div class="resumenPedido">
+                    <div class="resumenPedidodiv1">
+                        <h2>Nombre Producto</h2>
+                    </div>
+                    <div class="resumenPedidodiv2">
+                        <h3><span><a href="" type="button" data-bs-toggle="modal" data-bs-target="#compartirEditModal">Compartir</a></span> | <span><a href="" type="button" data-bs-toggle="modal" data-bs-target="#comentarEditModal">Comentar</a></span></h3>
+                        
+                    </div>
+                    <div class="resumenPedidodiv3">
+                        <h1>$43.00</h1>
+                    </div>
+                    <div class="resumenPedidodiv4">
+                        <p>Cantidad: 20</p>
+                    </div>
+                </div>
+                 <!--articulo del pedido-->
+                </div>
                 
-                <div class="clear"></div><br>
-                <h2>Resumen del pedidos</h2>
+                 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate aut dignissimos inventore accusantium eos alias quasi id, quam ducimus ipsa nostrum est recusandae enim esse laudantium quia quod incidunt mollitia.</p>
                 <div class="clear"></div><br>
              
@@ -245,6 +379,102 @@
             </ul>
         </div>
     </footer>
+    
+       <!-- Modal -->
+<div class="modal fade" id="comentarEditModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Gracias por Comentar!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Editor de comentarios
+        <ul>
+            <li>Nombre del Producto</li>
+            <li>Foto del Producto</li>
+            <li>precio del Producto</li>
+            <li>precio rebajado del Producto</li>
+            <li>Comentarios</li>
+            <li>Votos</li>
+            <li>Guardar como favorito</li>
+            
+            <div class="rating">
+                            <span><input type="radio" name="rating" id="str5" value="5"><label for="str5"></label></span>
+                            <span><input type="radio" name="rating" id="str4" value="4"><label for="str4"></label></span>
+                            <span><input type="radio" name="rating" id="str3" value="3"><label for="str3"></label></span>
+                            <span><input type="radio" name="rating" id="str2" value="2"><label for="str2"></label></span>
+                            <span><input type="radio" name="rating" id="str1" value="1"><label for="str1"></label></span>
+                        </div>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        
+        <button type="button" class="btn btn-primary"  data-bs-dismiss="modal">Acept</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- Modal -->
+ <div class="modal fade" id="compartirEditModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Gracias por Compartir!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Editor de Compartir modal
+        <ul>
+            <li>Nombre del Producto</li>
+            <li>Foto del Producto</li>
+            <li>precio del Producto</li>
+            <li>precio rebajado del Producto</li>
+            <li>Opciones de compartir RRR</li>
+            <li>Guardar como favorito</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        
+        <button type="button" class="btn btn-primary"  data-bs-dismiss="modal">Acept</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- Modal -->
+ <div class="modal fade" id="editarPedidoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Edite Su Pedido</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Editor de Pedido
+        <ul>
+            <li>Id de La compra</li>
+            <li>Foto del Producto principal</li>
+            <li>total de la compra</li>
+            <li>fecha de la compra</li>
+            <li>status de la compra</li>
+            <li>Payment de la compra</li>
+            <li>Opciones de la compra</li>
+            <li>Cancelar | Completado | Rechazado | Enviado</li>
+            <li>Motivo Cancelación</li>
+            <li>Chat con Atención al Cliente</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        
+        <button type="button" class="btn btn-primary"  data-bs-dismiss="modal">Acept</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -258,6 +488,7 @@
 <!--start rate-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="./assets/js/startrate.js"></script>
+<script src="./assets/js/header.js"></script>
 
 
 

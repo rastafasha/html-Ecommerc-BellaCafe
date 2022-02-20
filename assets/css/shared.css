@@ -41,7 +41,6 @@
 
 
 .user .group,
-.lawyer-profile .group,
 .wallet .group {
     display: grid;
     grid-template-columns: 100px 1fr;
@@ -92,7 +91,6 @@
 }
 
 .wallet .div1 p,
-.lawyer-profile .div1 p,
 .user .div1 p {
     padding: 0px;
     margin: 0px;
@@ -104,10 +102,8 @@
 }
 
 .user .post-inner,
-.lawyer-profile .post-inner,
 .favorites .post-inner,
-.search .post-inner,
-.user-document .post-inner {
+.search .post-inner, {
     overflow: hidden;
     overflow-y: scroll;
     width: 100%;
@@ -125,7 +121,6 @@
     box-shadow: 0px 7px 10px #e3e2e2;
 }
 
-.lawyer-profile .itemFav .fa,
 .wallet .itemFav .fa,
 .user .itemFav .fa {
     width: 80%;

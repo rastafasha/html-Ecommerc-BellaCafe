@@ -39,6 +39,7 @@
 @import url("cart.css");
 @import url("pedidos.css");
 @import url("modal.css");
+@import url("wallet.css");
 
 
 :root {
@@ -70,7 +71,7 @@ a,
 a:hover,
 a:active,
 a:focus {
-    color: #51d8af;
+    color: var(--dark--brown) !important;
     outline: none !important;
     text-decoration: none !important;
 }

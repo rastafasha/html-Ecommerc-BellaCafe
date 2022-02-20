@@ -4,11 +4,19 @@ $(document).ready(function() {
         if ($(this).scrollTop() > 0) {
             $('header').addClass('header2');
             $('.home .logo').addClass('logo2');
+             $('.statusOrder .titlePage').addClass('titlePage2');
+            $('.wallet .titlePage').addClass('titlePage2');
+            $('.shipping .titlePage').addClass('titlePage2');
+            $('.listofGrocery .titlePage').addClass('titlePage2');
 //            $('.menn').css('color', '#72c0ff');
 
         } else {
             $('header').removeClass('header2');
             $('.home .logo').removeClass('logo2');
+            $('.statusOrder .titlePage').removeClass('titlePage2');
+            $('.wallet .titlePage').removeClass('titlePage2');
+            $('.shipping .titlePage').removeClass('titlePage2');
+            $('.listofGrocery .titlePage').removeClass('titlePage2');
 //            $('.menn').css('color', '#72c0ff');
         }
     });

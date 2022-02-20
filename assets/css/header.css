@@ -17,3 +17,17 @@
 .header3{
     background-color: var(--dark-brown) !important;
 }
+
+.titlePage2{
+   padding-top: 0;
+    position: sticky;
+    z-index: 99;
+    top: -5px;
+    left: calc(28%);
+    text-align: center;
+    transition: all 2s 1 ease;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    margin: auto;
+}

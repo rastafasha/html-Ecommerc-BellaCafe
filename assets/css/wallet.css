@@ -1,0 +1,12 @@
+.wallet .cuadro-modal {
+    bottom: -40%;
+    transform: translate(0px, 0%);
+    background-color: var(--lighter-brown);
+    padding: 20px;
+    height: 134vh;
+    -webkit-animation: cuadro-modal 1s 1 ease;
+    -moz-animation: cuadro-modal 1s 1 ease;
+    -o-animation: cuadro-modal 1s 1 ease;
+    -ms-animation: cuadro-modal 1s 1 ease;
+    animation: cuadro-modal 1s 1 ease;
+}
