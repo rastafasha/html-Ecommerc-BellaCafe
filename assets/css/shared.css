@@ -12,7 +12,6 @@
 .home .areagris,
 .user .areagris,
 .wallet .areagris,
-
 .favorites .areagris {
     background-color: var(--grisfondo);
     height: calc(100vh);
@@ -24,6 +23,7 @@
 }
 
 
+.user .areablanc-interna,
 .wallet .areablanc-interna,
 .search .areablanc-interna,
 .favorites .areablanc-interna {

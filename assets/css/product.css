@@ -86,6 +86,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', end
     transform: translate(0px, 0%);
 }
 
+.productPage .titlePage{
+    text-align: center;
+    color: var(--light-brown);
+    font-size: 17px;
+    padding-top: 15px;
+}
+
+.productPage .butonBack .fa {
+    position: relative;
+    z-index: 9;
+    font-size: 34px;
+    top: 0;
+    left: 15px;
+    color: var(--lighter-brown);
+}
+
 
 
 
