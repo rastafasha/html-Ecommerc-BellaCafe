@@ -8,6 +8,9 @@ $(document).ready(function() {
             $('.wallet .titlePage').addClass('titlePage2');
             $('.shipping .titlePage').addClass('titlePage2');
             $('.listofGrocery .titlePage').addClass('titlePage2');
+            $('.admin .titlePage').addClass('titlePage2');
+            $('.admin-edit .titlePage').addClass('titlePage2');
+            $('.cart .titlePage').addClass('titlePage2');
 //            $('.menn').css('color', '#72c0ff');
 
         } else {
@@ -17,6 +20,9 @@ $(document).ready(function() {
             $('.wallet .titlePage').removeClass('titlePage2');
             $('.shipping .titlePage').removeClass('titlePage2');
             $('.listofGrocery .titlePage').removeClass('titlePage2');
+            $('.admin .titlePage').removeClass('titlePage2');
+            $('.admin-edit .titlePage').removeClass('titlePage2');
+            $('.cart .titlePage').removeClass('titlePage2');
 //            $('.menn').css('color', '#72c0ff');
         }
     });

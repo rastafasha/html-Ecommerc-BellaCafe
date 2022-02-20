@@ -1,0 +1,36 @@
+.admin{}
+.admin p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.admin .cuadro-modal {
+    bottom: -26%;
+    transform: translate(0px, 0%);
+    background-color: var(--lighter-brown);
+    padding: 20px;
+    height: 120vh;
+}
+
+.admin-edit .scrollable {
+    width: 97%;
+    height: 90vh;
+}
+.admin-edit .cuadro-modal {
+    bottom: -40%;
+    transform: translate(0px, 0%);
+    background-color: var(--lighter-brown);
+    padding: 20px;
+    height: 100vh;
+}
+
+.admin .itemFav img {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid rgb(231, 231, 231);
+    background-color: #fafafa;
+    border-radius: 13px;
+    box-shadow: 0px 7px 10px #e3e2e2;
+}
