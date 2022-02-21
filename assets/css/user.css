@@ -70,19 +70,22 @@
 }
 
 .admin-services {
-    height: 70px;
+    height: 130px;
 }
 
 .admin-services a,
 .admin-services p,
 .admin-services i {
-    color: var(--grisfondo);
+    color: var(--dark-brown);
 }
 
 .option-admin {
     display: grid;
     justify-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
+
 
 .option-admin i,
 .option-admin p {
@@ -95,12 +98,13 @@
 
 .option-admin i {
     font-size: 1.6em;
-    border: 1px solid var(--red);
+    border: 1px solid var(--light-brown);
     border-radius: 100px;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     display: flex;
     padding: 5px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.4);
 }
 
 .option-admin p {

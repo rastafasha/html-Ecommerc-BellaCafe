@@ -187,6 +187,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c2415', end
     
     
 }
+.cardTitleProduct .reduceprice{
+    font-size: 24px;
+    font-weight: 400;
+    align-self: flex-end;
+    display: flex;
+    color: var(--dark-brown);
+    text-decoration: line-through;
+    
+}
 .cardTitleProduct .stars {
     align-items: flex-start;
     padding-right: 33px;

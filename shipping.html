@@ -32,7 +32,7 @@
     </head>
 
 <body>
-     <header class="header">
+   <header class="header">
         <!--menu desktop-->
         <div class="wrap d-flex">
 
@@ -108,92 +108,111 @@
 
         </div>
     </header>
-    <section class="page cart shipping">
-     
+    <section class="page">
       <div class="butonBack">
-               <a href="cart.html"><i class="fa fa-angle-left"></i></a>
+               <a href="home.html"><i class="fa fa-angle-left"></i></a>
            </div>
-       <div class="titlePage ">
-           <h3>Shipping | Delivery</h3>
+       <div class="titlePage">
+           <h3>Shipping Delivery</h3>
        </div>
        
+       
+        
+        
+        
         <!--cuadromodal-->
         <div class="cuadro-modal ">
-           <div class="total">
-            <p>Sub-total: $18.00</p>
-            </div>
+           
             <div class="lineamedio"></div>
             
-            <div class="col-auto mb-2">
-                <input class="form-control form-control-md cuponInput" type="text" placeholder="Posee Cupón de Descuento?" aria-label=".form-control-lg example">
-            </div>
             
-            <h3>Metodo de Envío</h3>
-            <div class="cardsmall group  itemFav ">
-                <form action="">
-                    <a href="wallet-payment.html">
-                    <div class="group itemFav shadow">
-                        <div class="fa fa-paypal"></div>
-                        <div class="div1pagocon">
-                            <h2>PickUp</h2>
-                            <p>Retiro en el local</p>
-                        </div>
-                    </div>
-                </a>
+            <div class="info-product group  itemFav shadow infoCompraTotal">
+                            
+                        <h2>Shopping Bill</h2>
 
-                <div class="group itemFav shadow">
-                        <div class="fa fa-paypal"></div>
-                        <div class="div1pagocon">
-                            <h2>Delivery</h2>
-                            <div class="col-auto mb-2">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td  style="color: #000" >Delivery zone Name</td>
+                                            <td  style="color: #000"  align="right">$5.00</td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td  style="color: #000" >Descuento Cupon Total</td>
+                                            <td  style="color: #000"  align="right">$13.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td  style="color: #000" >Sub Total</td>
+                                            <td  style="color: #000"  align="right">$4.00</td>
+                                        </tr>
+                                    </tbody>
+
+                                    <tfoot style="border-top: 1px solid #000; height: 50px;">
+                                        <tr>
+                                            <td  style="color: #000" >Total</td>
+                                            <td   style="color: #000" align="right">$53.00</td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                        </div>
+
+            
+            <div class="info-product animated fadeInUp scrollable">
+                   <div class="form ">
+                                <form action="">
+                                    <div class="col-auto mb-2">
+                                        <input class="form-control form-control-md" type="text" placeholder="first name" aria-label=".form-control-lg example">
+                                    </div>
+                                    <div class="col-auto mb-2">
+                                        <input class="form-control form-control-md" type="text" placeholder="last name" aria-label=".form-control-lg example">
+                                    </div>
+                                    <div class="col-auto mb-2">
+                                        <input class="form-control form-control-md" type="text" placeholder="email" aria-label=".form-control-lg example">
+                                    </div>
+                                    <div class="col-auto mb-2">
+                                        <input class="form-control form-control-md" type="text" placeholder="phone number" aria-label=".form-control-lg example">
+                                    </div>
+                                    <div class="col-auto mb-2">
+                                        <input class="form-control form-control-md" type="text" placeholder="address" aria-label=".form-control-lg example">
+                                    </div>
+                                    <div class="col-auto mb-2">
+                                        <input class="form-control form-control-md" type="text" placeholder="zip code" aria-label=".form-control-lg example">
+                                    </div>
+                                    <div class="col-auto mb-2">
                                         <select name="" id="" class="form-control form-control-md">
-                                            <option value="0">Select Carrer</option>
+                                            <option value="0">Donde Nos conoce?</option>
                                             <option value="0">Category 1</option>
                                             <option value="0">Category 2</option>
                                             <option value="0">Category 3</option>
                                             <option value="0">Category 4</option>
                                         </select>
                                     </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
+                                    
+                                    <div class="col-auto mb-2">
+                                        
+                                        <textarea class="form-control form-control-md" placeholder="comentarios"  aria-label=".form-control-lg example" name="" ></textarea>
+                                    </div>
+                                    
 
+                                    <div class="col-auto mb-2">
+                                        <input class="form-control form-control-md" type="text" placeholder="mapa" aria-label=".form-control-lg example">
+                                    </div>
+                                    
+                                            
+                                    
+
+
+                                    <div class="botonera">
+                                        <div class="button btn-simple-gray">Cancelar</div>
+                                        <a href="wallet.html">
+                                            <div class="button btn-full-red">Continuar</div>
+                                        </a>
+                                    </div>
+
+                                </form>
+                            </div>
+            </div>
             
-            <div class="info-product animated fadeInUp ">
-              
-               <div class="infoCompraTotal shadow">
-                   <div class="infoCompraTotal1">
-                       <p>Delivery Zona Este</p>
-                   </div>
-                   <div class="infoCompraTotal2">
-                       <p>$5.00</p>
-                   </div>
-                   <div class="infoCompraTotal3">
-                       <p>Sub Total con Delivery</p>
-                   </div>
-                   <div class="infoCompraTotal4">
-                       <p>$25.00</p>
-                   </div>
-                   <div class="infoCompraTotal5">
-                       <p>Cupón de Descuento</p>
-                   </div>
-                   <div class="infoCompraTotal6">
-                       <p>Si</p>
-                   </div>
-                   <div class="infoCompraTotal7">
-                       <p>SubTotal</p>
-                   </div>
-                   <div class="infoCompraTotal8">
-                       <p>$25.00</p>
-                   </div>
-               </div>
-                
-                <a href="wallet.html">
-                    <button class="boton-brown w-100">Continue</button>
-                </a>
-
-            </div>
         </div>
         <!--cuadromodal-->
         
@@ -204,7 +223,7 @@
         <div class="menu-footer">
             <ul>
 
-                <li >
+                <li class="active">
                     <a href="home.html">
                         <i class="fa fa-home"></i>
                     </a>
@@ -214,7 +233,7 @@
                         <i class="fa fa-store"></i>
                     </a>
                 </li>
-                <li class="active iconstore">
+                <li>
                     <a href="cart.html">
                         <i class="fa fa-shopping-bag"></i>
                     </a>
@@ -243,7 +262,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
 <script src="./assets/js/imageGalerry.js"></script>
-<script src="./assets/js/header.js"></script>
+
 
 
 <script>
