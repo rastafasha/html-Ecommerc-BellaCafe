@@ -50,18 +50,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c2415', end
     }
 }
 
-
-
-.home .logo{
-    position: absolute;
+ .home .logo {
+    position: relative;
     z-index: 9;
-    left: calc(33%);
-    width: 130px;
-    height: 130px;
-    transform: translate(0px, 0%);
-    
-    
+    height: 120px;
+    display: block;
+    margin: 0% auto;
+    width: auto;
 }
+
+
 
 /*
 .home .logo2 {
@@ -143,7 +141,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
 
 .cuadro-modal img{
-    width: auto;
+    width: 100%;
     bottom: 0;
     display: flex;
     flex-direction: column;
@@ -263,4 +261,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', end
 	0%   { transform: translate(100%, 0%);}
 	100% {transform: translate(0px, 0%);}
     
+}
+
+
+
+
+@media(min-width: 768px){
+    .home .logo {
+    position: relative;
+    z-index: 9;
+    height: 120px;
+    display: block;
+    margin: 0% 80%;
+    width: auto;
+}
 }

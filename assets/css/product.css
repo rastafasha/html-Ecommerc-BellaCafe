@@ -68,10 +68,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', end
 
 .productPage .cuadro-modal {
     bottom: 0%;
-    transform: translate(0px, 0%);
+    transform: translate(0px, 40%);
     background-color: var(--lighter-brown);
     padding: 20px;
-    height: 60vh;
+    height: 100vh;   
+    -webkit-animation:cuadro-modal 1s 1 ease;
+			-moz-animation:cuadro-modal 1s 1 ease;
+			-o-animation:cuadro-modal 1s 1 ease;
+			-ms-animation:cuadro-modal 1s 1 ease;
+			animation:cuadro-modal 1s 1 ease;
+    
+}
+
+
+
+
+@keyframes cuadro-modal {
+	0%   {transform: translate(0px, 100%);}
+	100% {transform: translate(0px, 40%);}
+}
+
+
+@-webkit-keyframes cuadro-modal {
+	0%   {transform: translate(0px, 100%);}
+	100% {transform: translate(0px, 40%);}
     
 }
 

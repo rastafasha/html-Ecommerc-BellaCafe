@@ -6,7 +6,7 @@
 
 .carousel-inner-data {
     margin: 0px auto;
-    height: 350px;
+    height: auto;
     overflow: hidden;
 }
 

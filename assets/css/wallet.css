@@ -11,6 +11,18 @@
     animation: cuadro-modal 1s 1 ease;
 }
 
+.wallet .post-inner {
+    overflow: hidden;
+    overflow-y: scroll;
+    position: fixed;
+    padding-right: 20px;
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 150px;
+    margin-top: 10px;
+}
+
+
 
 
 
