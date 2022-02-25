@@ -40,8 +40,13 @@ img {
     font-size: 14px;
 }
 
-.favoritesdiv1 { grid-area: 1 / 1 / 2 / 2; }
-.favoritesdiv2 { grid-area: 1 / 2 / 2 / 3; }
+.favoritesdiv1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.favoritesdiv2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
 
 .favorites .navTabs {
     display: grid;

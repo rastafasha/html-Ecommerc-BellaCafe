@@ -40,8 +40,13 @@
     font-size: 14px;
 }
 
-.searchdiv1 { grid-area: 1 / 1 / 2 / 2; }
-.searchdiv2 { grid-area: 1 / 2 / 2 / 3; }
+.searchdiv1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.searchdiv2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
 
 .search .navTabs {
     display: grid;
@@ -89,11 +94,11 @@
     padding-left: 5px;
 }
 
-.search  .itemFav img {
+.search .itemFav img {
     width: 70%;
 }
 
-.search  .cuadro-modal .lastposthome img {
+.search .cuadro-modal .lastposthome img {
     position: relative;
 }
 
@@ -114,7 +119,7 @@
     .search .post-date {
         height: 110px;
     }
-    .search  .navTabs {
+    .search .navTabs {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr;

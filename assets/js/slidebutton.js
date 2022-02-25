@@ -11,10 +11,10 @@ var inputRange = document.getElementsByClassName('pullee')[0],
 
 // listen for unlock
 function unlockStartHandler() {
-    var x = document.getElementsByClassName("pullee").value
+    var x = document.getElementsByClassName("pullee").value;
 
     if (x === "1" && y === "1" && z === "1") {
-        window.location.assign("https://www.google.com")
+        window.location.assign("https://www.google.com");
     }
 }
 

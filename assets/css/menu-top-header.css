@@ -286,15 +286,14 @@
     }
 }
 
-
-.sidemenu .user-header-top{
+.sidemenu .user-header-top {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: space-between
 }
 
-.sidemenu .user-header-top img{
+.sidemenu .user-header-top img {
     margin: 3px;
     padding: 3px;
     box-shadow: 0px 2px 3px #ccc;
@@ -303,11 +302,9 @@
     border-radius: 100px;
 }
 
-
-@media(min-width:768px){
+@media(min-width:768px) {
     .header .sidemenu-toggler,
-    .header .sidemenu .close{
+    .header .sidemenu .close {
         display: none;
     }
-    
 }

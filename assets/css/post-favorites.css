@@ -1,7 +1,6 @@
 .post-inner {
     overflow: hidden;
     overflow: scroll;
-    overflow-y: position: fixed;
 }
 
 .carousel-inner-data {
